@@ -1,0 +1,23 @@
+﻿Build started 18-11-2015 02:04:06.
+     1>Project "C:\Users\Raghav Jajodia\documents\visual studio 2013\Projects\handDetection\handDetection\handDetection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(64): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(66): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(67): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(68): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(226): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(227): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\raghav jajodia\documents\visual studio 2013\projects\handdetection\handdetection\main.cpp(260): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Raghav Jajodia\documents\visual studio 2013\Projects\handDetection\Debug\handDetection.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc12\lib opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Raghav Jajodia\documents\visual studio 2013\Projects\handDetection\Debug\handDetection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Raghav Jajodia\documents\visual studio 2013\Projects\handDetection\Debug\handDetection.lib" /MACHINE:X86 Debug\handGesture.obj
+         Debug\main.obj
+         Debug\myImage.obj
+         Debug\roi.obj
+         handDetection.vcxproj -> C:\Users\Raghav Jajodia\documents\visual studio 2013\Projects\handDetection\Debug\handDetection.exe
+     1>Done Building Project "C:\Users\Raghav Jajodia\documents\visual studio 2013\Projects\handDetection\handDetection\handDetection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.87
